@@ -1,0 +1,90 @@
+.main{
+border-color: #960018;
+border-style: solid;
+width: 820px;
+background-color: #ffffe0;
+}
+
+.base{
+width: 820px;	
+padding-top: 10px;
+}
+
+.left_base{
+float: left;
+background-color: #ffffe0;
+background-clip: content-box;
+width: 19%;
+}
+
+.right_base{
+float: right;
+width: 80%;
+background-clip: content-box;
+text-align: justify;
+padding-left: 1px;
+}
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+p.font1{
+font-family: Comic Sans MS;
+font-size: 46px;
+color: lime;
+}
+
+.font2{
+font-family: Comic Sans MS;
+font-size: 20px;
+text-align: justify;
+width: 90%;
+}
+
+.font3{
+text-align: justify;
+padding-top: 10px;
+}
+
+.border{
+border-left-style:solid;
+border-color: red;
+float: left;
+border-width: 6px;
+padding-left:10px;
+}
+
+.border-red{
+position: relative;
+margin-top: 10px;
+width: 826px;
+color: red;
+border-top:4px double;
+}
+
+a:link {color:lime;}
+a:visited {color:lime; text-decoration: none;}
+a:hover {color:lime; text-decoration: none;}
+a:active {color:lime;}
+
+.clear:after{
+content: " ";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+.icon {
+background:url(images/heart_179.jpg) no-repeat left center; 
+background-size: 16px; 
+display:inline-block;
+vertical-align:bottom;
+padding-left: 20px;
+}
